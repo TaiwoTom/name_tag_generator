@@ -1,0 +1,64 @@
+.parent {
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.h1 {
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+}
+
+#container>div {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.head {
+    background-color: #dd3a3a;
+    color: white;
+    padding: 1px 65px 1px 65px;
+    border-radius: 10px 10px 0 0;
+    height: 95px;
+}
+
+.tail {
+    background-color: #dd3a3a;
+    height: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.p {
+    height: 40px;
+    font-size: 400%;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.pp {
+    margin-top: -15px;
+    font-size: small;
+}
+
+span {
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    float: right;
+    margin-right: -55px;
+    margin-top: 10px;
+    border-radius: 50%;
+}

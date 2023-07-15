@@ -1,0 +1,36 @@
+`
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Tag Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1>Name Tag Generator</h1>
+            <form>
+                <input type="text" id="input" placeholder="Add a name to generate a tag">
+                <button type="button" onclick="addTag()">Create Name Tag</button>
+            </form>
+        </div>
+        <div id="container"></div>
+    </div>
+</body>
+
+</html>
+<script>
+    function addTag() {
+        const input = document.getElementById("input").value
+        const container = document.getElementById("container")
+        const tag = document.createElement("div")
+        tag.innerHTML = `<div class="head"><span> </span><h1 class="h1">HELLO</h1> <p class="pp">My name is</p></div > <p class="p">${input} </p> <div class="tail"></div>`
+        container.appendChild(tag)
+    }
+
+</script>
